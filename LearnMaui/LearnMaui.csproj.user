@@ -17,6 +17,9 @@
     <MauiXaml Update="FlyoutPageDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="GridLayoutDemo.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="StackLayoutDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
