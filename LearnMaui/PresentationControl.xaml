@@ -8,6 +8,8 @@
         <BoxView 
             BackgroundColor="Gainsboro"
             HeightRequest="300" />
+            
+            <WebView HeightRequest="500" Source="https://www.google.com" />
         
         <Label 
             Text="Simple Title" 
@@ -79,9 +81,9 @@
                 Margin="10"
                 Padding="10"
                 BackgroundColor="Gray">
-               <Image Source="dotnet_bot.svg" /> 
+                <Image Source="dotnet_bot.svg" />
             </Frame>
-            
+
         </StackLayout>
     </ScrollView>
     
