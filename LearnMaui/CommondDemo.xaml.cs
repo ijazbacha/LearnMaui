@@ -21,4 +21,14 @@ public partial class CommondDemo : ContentPage
 	{
 		DisplayAlert("Searching Text", $"You Search {Searching.Text}", "OK");
 	}
+
+	private void SwipeItem_Delete(object sender, EventArgs e)
+	{
+		DisplayAlert("Delete Item", "Are you Sure to delete item?", "Yes", "No");
+	}
+
+	private void SwipeItem_Add(object sender, EventArgs e)
+	{
+        DisplayAlert("Add Item", "Are you Sure to add item?", "Yes", "No");
+    }
 }

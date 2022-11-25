@@ -28,5 +28,34 @@
 
         <SearchBar x:Name="Searching"
                    SearchButtonPressed="Searching_SearchButtonPressed" />
+
+        <SwipeView>
+            <SwipeView.LeftItems>
+                <SwipeItems>
+                    <SwipeItem
+                        BackgroundColor="Red"
+                        IconImageSource="dotnet_bot.svg"
+                        Invoked="SwipeItem_Delete"
+                        Text="Delete"
+                        />
+                    <SwipeItem
+                        BackgroundColor="Green"
+                        IconImageSource="dotnet_bot.svg"
+                        Invoked="SwipeItem_Add"
+                        Text="Add"/>
+                </SwipeItems>
+            </SwipeView.LeftItems>
+            <Grid 
+                HeightRequest="50"
+                WidthRequest="350"
+                BackgroundColor="Gray"
+                Padding="10"
+                Margin="10">
+                <Label Text="Swipe it to see options"
+                       VerticalOptions="Center"
+                       TextColor="White"
+                       />
+            </Grid>
+        </SwipeView>
     </VerticalStackLayout>
 </ContentPage>
