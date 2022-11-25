@@ -17,6 +17,9 @@
     <MauiXaml Update="DemoPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="FlexLayoutDemo.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="FlyoutPageDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

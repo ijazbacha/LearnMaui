@@ -33,6 +33,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.DemoPage.xaml
 build_metadata.AdditionalFiles.TargetPath = DemoPage.xaml
 build_metadata.AdditionalFiles.RelativePath = DemoPage.xaml
 
+[C:/Users/IjazAhmad/source/repos/LearnMaui/LearnMaui/FlexLayoutDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.FlexLayoutDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = FlexLayoutDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = FlexLayoutDemo.xaml
+
 [C:/Users/IjazAhmad/source/repos/LearnMaui/LearnMaui/FlyoutPageDemo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.FlyoutPageDemo.xaml
