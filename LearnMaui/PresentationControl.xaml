@@ -74,6 +74,14 @@
                 
                 <Label Text="Border Text" />
             </Border>
+
+            <Frame 
+                Margin="10"
+                Padding="10"
+                BackgroundColor="Gray">
+               <Image Source="dotnet_bot.svg" /> 
+            </Frame>
+            
         </StackLayout>
     </ScrollView>
     
