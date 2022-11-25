@@ -55,6 +55,12 @@
                 StrokeDashOffset="5"
                 HorizontalOptions="Center"
                 />
+
+            <Polyline 
+                Stroke="green"
+                StrokeThickness="5"
+                Points="30, 20, 62, 75, 44, 100"
+                HorizontalOptions="Center"/>
         </StackLayout>
     </ScrollView>
     
