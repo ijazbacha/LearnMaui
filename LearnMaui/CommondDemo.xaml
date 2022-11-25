@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearnMaui.CommondDemo"
+             Title="CommondDemo">
+    <VerticalStackLayout>
+        <Button Text="BTN 1" 
+                Clicked="Button_Clicked"/>
+
+        <ImageButton Source="dotnet_bot.svg" 
+                     Clicked="Button_Clicked" />
+
+        <RadioButton Content="Option 1"
+                     CheckedChanged="RadioButton_CheckedChanged"
+                     GroupName="gp1" />
+
+        <RadioButton Content="Option 2"
+                     CheckedChanged="RadioButton_CheckedChanged"
+                     GroupName="gp1" />
+
+        <RadioButton Content="Option 3"
+                     CheckedChanged="RadioButton_CheckedChanged"
+                     GroupName="gp2" />
+
+        <RadioButton Content="Option 3"
+                     CheckedChanged="RadioButton_CheckedChanged"
+                     GroupName="gp2" />
+
+        <SearchBar x:Name="Searching"
+                   SearchButtonPressed="Searching_SearchButtonPressed" />
+    </VerticalStackLayout>
+</ContentPage>
