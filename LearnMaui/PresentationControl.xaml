@@ -61,6 +61,19 @@
                 StrokeThickness="5"
                 Points="30, 20, 62, 75, 44, 100"
                 HorizontalOptions="Center"/>
+
+            <Border 
+                Stroke="orange"
+                StrokeThickness="1"
+                BackgroundColor="LightBlue"
+                Padding="10, 6"
+                HorizontalOptions="Center">
+                <Border.StrokeShape>
+                <RoundRectangle CornerRadius="50,0,0,50" />
+                </Border.StrokeShape>
+                
+                <Label Text="Border Text" />
+            </Border>
         </StackLayout>
     </ScrollView>
     
