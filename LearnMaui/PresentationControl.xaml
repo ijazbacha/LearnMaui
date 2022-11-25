@@ -45,7 +45,17 @@
             RadiusY="5"
             Margin="5"
             HorizontalOptions="Center"/>
-    </StackLayout>
+
+            <Polygon 
+                Fill="darkred" 
+                Stroke="blue"
+                StrokeThickness="12"
+                Points="30, 20, 62, 75, 44, 100"
+                StrokeDashArray="1,1"
+                StrokeDashOffset="5"
+                HorizontalOptions="Center"
+                />
+        </StackLayout>
     </ScrollView>
     
 </ContentPage>
