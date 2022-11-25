@@ -23,5 +23,14 @@
             HeightRequest="200"
             WidthRequest="200"
             HorizontalOptions="Center" />
+
+        <Line 
+            Stroke="gray"
+            X1="0"
+            Y1="0"
+            X2="150"
+            Y2="0"
+            StrokeThickness="12"
+            HorizontalOptions="Center" />
     </StackLayout>
 </ContentPage>
