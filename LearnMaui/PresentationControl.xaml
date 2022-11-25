@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LearnMaui.PresentationControl"
              Title="PresentationControl">
-    <StackLayout>
+    <ScrollView>
+        <StackLayout>
         <BoxView 
             BackgroundColor="Gainsboro"
             HeightRequest="300" />
@@ -24,6 +25,8 @@
             WidthRequest="200"
             HorizontalOptions="Center" />
 
+        <BoxView Margin="5"/>
+
         <Line 
             Stroke="gray"
             X1="0"
@@ -32,5 +35,17 @@
             Y2="0"
             StrokeThickness="12"
             HorizontalOptions="Center" />
+
+        <Rectangle 
+            Fill="gray" 
+            Stroke="red"
+            HeightRequest="200"
+            WidthRequest="200"
+            RadiusX="5"
+            RadiusY="5"
+            Margin="5"
+            HorizontalOptions="Center"/>
     </StackLayout>
+    </ScrollView>
+    
 </ContentPage>
