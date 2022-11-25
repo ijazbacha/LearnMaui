@@ -9,6 +9,12 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LearnMaui
 build_property.ProjectDir = C:\Users\IjazAhmad\source\repos\LearnMaui\LearnMaui\
 
+[C:/Users/IjazAhmad/source/repos/LearnMaui/LearnMaui/AbsoluteLayoutDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.AbsoluteLayoutDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = AbsoluteLayoutDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = AbsoluteLayoutDemo.xaml
+
 [C:/Users/IjazAhmad/source/repos/LearnMaui/LearnMaui/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.App.xaml
