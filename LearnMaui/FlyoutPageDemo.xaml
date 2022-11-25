@@ -14,8 +14,6 @@
 
     <FlyoutPage.Detail>
         <ContentPage Title="Detail Page">
-            
-
             <Button 
                 Text="Home Page" 
                 Clicked="Button_Clicked" 
