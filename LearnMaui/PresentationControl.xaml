@@ -7,5 +7,12 @@
         <BoxView 
             BackgroundColor="Gainsboro"
             HeightRequest="300" />
+        <Label 
+            Text="Simple Title" 
+            TextColor="Aqua"
+            FontAttributes="Bold"
+            FontSize="Title"
+            Margin="10"
+            HorizontalOptions="Center"/>
     </StackLayout>
 </ContentPage>
