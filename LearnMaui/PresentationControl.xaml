@@ -7,6 +7,7 @@
         <BoxView 
             BackgroundColor="Gainsboro"
             HeightRequest="300" />
+        
         <Label 
             Text="Simple Title" 
             TextColor="Aqua"
@@ -14,5 +15,13 @@
             FontSize="Title"
             Margin="10"
             HorizontalOptions="Center"/>
+
+        <Ellipse 
+            Fill="red" 
+            Stroke="green"
+            StrokeThickness="12"
+            HeightRequest="200"
+            WidthRequest="200"
+            HorizontalOptions="Center" />
     </StackLayout>
 </ContentPage>
