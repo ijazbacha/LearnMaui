@@ -30,5 +30,25 @@
 
         <DatePicker />
 
+        <Entry 
+            x:Name="UserName"
+            Placeholder="Enter user name"
+            PlaceholderColor="Gray"
+            Keyboard="Default"
+            IsPassword="False"
+            TextColor="Green"
+            Margin="10"
+            BackgroundColor="LightCyan"
+            TextChanged="UserName_TextChanged"
+            Completed="UserName_Completed"/>
+
+        <Label 
+            x:Name="ShowEntryText"
+            TextColor="Red"/>
+
+        <Label 
+            x:Name="ShowCompleteEntryText"
+            TextColor="Green"/>
+
     </StackLayout>
 </ContentPage>

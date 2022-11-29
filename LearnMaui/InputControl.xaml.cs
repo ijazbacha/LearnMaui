@@ -16,4 +16,15 @@ public partial class InputControl : ContentPage
 	{
 		Slider1Result.Text = Stepper.Value.ToString();
 	}
+
+	private void UserName_TextChanged(object sender, TextChangedEventArgs e)
+	{
+        ShowEntryText.Text = UserName.Text;
+
+    }
+
+	private void UserName_Completed(object sender, EventArgs e)
+	{
+        ShowCompleteEntryText.Text = UserName.Text;
+    }
 }
