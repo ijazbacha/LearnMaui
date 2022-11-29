@@ -40,7 +40,33 @@
             SelectedIndicatorColor="Gray"/>
 
         
-        
+        <!--Collection View-->
+
+        <Label
+            Text="Collection View" HorizontalOptions="Center" Margin="10" FontAttributes="Bold" TextColor="BlueViolet"/>
+        <CollectionView Margin="15">
+            <CollectionView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Android</x:String>
+                    <x:String>Windows</x:String>
+                    <x:String>Mac</x:String>
+                    <x:String>IOS</x:String>
+                </x:Array>
+            </CollectionView.ItemsSource>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Label Text="{Binding .}" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!--List View-->
+        <Label
+            Text="List View" HorizontalOptions="Center" Margin="10" FontAttributes="Bold" TextColor="BlueViolet"/>
+
         <ListView HasUnevenRows="True" Margin="15">
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
@@ -61,5 +87,6 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+
     </StackLayout>
 </ContentPage>
