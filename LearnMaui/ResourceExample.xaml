@@ -22,6 +22,12 @@
                 FontFamily="OpenSans-Semibold.ttf"
                 FontAttributes="Italic,Bold"
                 FontSize="30"/>
+
+            <Image>
+                <Image.Source>
+                    <FontImageSource Color="Aqua" FontFamily="Icon" Glyph="&#xE800;"/>
+                </Image.Source>
+            </Image>
         </StackLayout>
     </ScrollView>
 
