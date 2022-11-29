@@ -44,6 +44,9 @@
     <MauiXaml Update="ResourceExample.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="SingleDataBinding.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="StackLayoutDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
