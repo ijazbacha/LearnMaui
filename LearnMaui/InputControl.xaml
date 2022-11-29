@@ -17,5 +17,11 @@
             />
 
         <Label x:Name="Slider1Result" />
+
+        <Stepper 
+            x:Name="Stepper"
+            Minimum="1"
+            Maximum="10"
+            ValueChanged="Stepper_ValueChanged"/>
     </StackLayout>
 </ContentPage>
