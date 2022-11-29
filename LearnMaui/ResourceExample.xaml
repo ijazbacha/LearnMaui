@@ -14,6 +14,14 @@
             <Image Source="haircare" />
             <Image Source="capture" />
             <Image Source="dotnet_bot.svg" />
+
+            <Label 
+                Text="Working with fonts."
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                FontFamily="OpenSans-Semibold.ttf"
+                FontAttributes="Italic,Bold"
+                FontSize="30"/>
         </StackLayout>
     </ScrollView>
 
