@@ -2,8 +2,20 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LearnMaui.SingleDataBinding"
-             Title="SingleDataBinding">
+             Title="SingleDataBinding"
+             xmlns:EmpModel="clr-namespace:LearnMaui.Model">
+
+    <ContentPage.Resources>
+        <EmpModel:Employee x:Key="employee" Id="1" Name="asdf" />
+    </ContentPage.Resources>
+    
     <VerticalStackLayout>
+
+        <Label 
+            Text="{Binding Name, Source={StaticResource employee}}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
         <Label 
             x:Name="EmployeeLB"
             Text="Welcome to .NET MAUI!"
