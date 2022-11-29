@@ -50,5 +50,11 @@
             x:Name="ShowCompleteEntryText"
             TextColor="Green"/>
 
+        <Editor 
+            AutoSize="TextChanges"
+            Placeholder="Multiple text area"
+            BackgroundColor="Azure"
+            Margin="10"/>
+
     </StackLayout>
 </ContentPage>
