@@ -25,5 +25,10 @@
             ValueChanged="Stepper_ValueChanged"/>
 
         <Switch IsToggled="True" OnColor="Wheat"  ThumbColor="Black"/>
+
+        <TimePicker />
+
+        <DatePicker />
+
     </StackLayout>
 </ContentPage>
