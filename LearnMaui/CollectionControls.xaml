@@ -88,5 +88,20 @@
             </ListView.ItemTemplate>
         </ListView>
 
+        <!-- Picker -->
+        <Label
+            Text="Picker" HorizontalOptions="Center" Margin="10" FontAttributes="Bold" TextColor="BlueViolet"/>
+
+        <Picker BackgroundColor="LightGray" Title="Picker" TextColor="Black">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Android</x:String>
+                    <x:String>Windows</x:String>
+                    <x:String>Mac</x:String>
+                    <x:String>IOS</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
     </StackLayout>
 </ContentPage>
