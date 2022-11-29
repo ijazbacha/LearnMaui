@@ -14,6 +14,9 @@
     <MauiXaml Update="AbsoluteLayoutDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="ActivityControls.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="CommondDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
