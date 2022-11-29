@@ -103,5 +103,27 @@
             </Picker.ItemsSource>
         </Picker>
 
+        <Label
+            Text="Table" HorizontalOptions="Center" Margin="10" FontAttributes="Bold" TextColor="BlueViolet"/>
+
+        <!-- TableView -->
+        <TableView Intent="Form">
+            <TableRoot >
+                <TableSection Title="First">
+                    <TextCell Text="First text cell" Detail="Details of first table cell"/>
+                    <EntryCell Text="First entry cell" Label="Enter label: " />
+                    <SwitchCell Text="First switch cell" />
+                    <ImageCell Text="First image cell" Detail="Details of first image cell" ImageSource="dotnet_bot.svg" />
+                </TableSection>
+
+                <TableSection Title="2nd">
+                    <TextCell Text="2nd text cell" Detail="Details of 2nd table cell"/>
+                    <EntryCell Text="2nd entry cell" Label="Enter label: " />
+                    <SwitchCell Text="2nd switch cell" />
+                    <ImageCell Text="2nd image cell" Detail="Details of 2nd image cell" ImageSource="dotnet_bot.svg" />
+                </TableSection>
+            </TableRoot>
+        </TableView>
+
     </StackLayout>
 </ContentPage>
