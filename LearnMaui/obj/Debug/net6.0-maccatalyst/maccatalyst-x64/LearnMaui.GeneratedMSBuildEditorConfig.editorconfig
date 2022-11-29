@@ -87,6 +87,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.PresentationCont
 build_metadata.AdditionalFiles.TargetPath = PresentationControl.xaml
 build_metadata.AdditionalFiles.RelativePath = PresentationControl.xaml
 
+[C:/Users/IjazAhmad/source/repos/LearnMaui/LearnMaui/ResourceExample.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.ResourceExample.xaml
+build_metadata.AdditionalFiles.TargetPath = ResourceExample.xaml
+build_metadata.AdditionalFiles.RelativePath = ResourceExample.xaml
+
 [C:/Users/IjazAhmad/source/repos/LearnMaui/LearnMaui/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.Resources.Styles.Colors.xaml

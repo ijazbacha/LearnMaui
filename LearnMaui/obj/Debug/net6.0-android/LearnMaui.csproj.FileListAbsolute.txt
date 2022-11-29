@@ -954,3 +954,6 @@ C:\Users\IjazAhmad\source\repos\LearnMaui\LearnMaui\obj\Debug\net6.0-android\lp\
 C:\Users\IjazAhmad\source\repos\LearnMaui\LearnMaui\obj\Debug\net6.0-android\lp\151\jl\files.cache
 C:\Users\IjazAhmad\source\repos\LearnMaui\LearnMaui\obj\Debug\net6.0-android\lp\153\jl\files.cache
 C:\Users\IjazAhmad\source\repos\LearnMaui\LearnMaui\obj\Debug\net6.0-android\lp\155\jl\files.cache
+C:\Users\IjazAhmad\source\repos\LearnMaui\LearnMaui\obj\Debug\net6.0-android\resizetizer\r\drawable\capture.PNG
+C:\Users\IjazAhmad\source\repos\LearnMaui\LearnMaui\obj\Debug\net6.0-android\resizetizer\r\drawable\haircare.jpg
+C:\Users\IjazAhmad\source\repos\LearnMaui\LearnMaui\obj\Debug\net6.0-android\resizetizer\r\drawable\developer.gif

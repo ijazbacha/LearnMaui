@@ -41,6 +41,9 @@
     <MauiXaml Update="PresentationControl.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="ResourceExample.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="StackLayoutDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
