@@ -49,6 +49,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Raw\Employee.json" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="AbsoluteLayoutDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
