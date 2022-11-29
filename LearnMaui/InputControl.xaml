@@ -23,5 +23,7 @@
             Minimum="1"
             Maximum="10"
             ValueChanged="Stepper_ValueChanged"/>
+
+        <Switch IsToggled="True" OnColor="Wheat"  ThumbColor="Black"/>
     </StackLayout>
 </ContentPage>
