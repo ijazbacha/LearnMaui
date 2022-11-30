@@ -93,6 +93,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.ModesExample.xam
 build_metadata.AdditionalFiles.TargetPath = ModesExample.xaml
 build_metadata.AdditionalFiles.RelativePath = ModesExample.xaml
 
+[C:/Users/IjazAhmad/source/repos/LearnMaui/LearnMaui/MVVM/Views/BindCollectionView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.MVVM.Views.BindCollectionView.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\BindCollectionView.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\BindCollectionView.xaml
+
+[C:/Users/IjazAhmad/source/repos/LearnMaui/LearnMaui/MVVM/Views/ProductPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.MVVM.Views.ProductPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\ProductPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\ProductPage.xaml
+
 [C:/Users/IjazAhmad/source/repos/LearnMaui/LearnMaui/PresentationControl.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.PresentationControl.xaml

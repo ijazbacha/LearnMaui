@@ -86,6 +86,12 @@
 	  <MauiXaml Update="ModesExample.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="MVVM\Views\BindCollectionView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="MVVM\Views\ProductPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="PresentationControl.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

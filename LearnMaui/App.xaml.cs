@@ -1,4 +1,6 @@
-﻿namespace LearnMaui;
+﻿using LearnMaui.MVVM.Views;
+
+namespace LearnMaui;
 
 public partial class App : Application
 {
@@ -8,6 +10,6 @@ public partial class App : Application
 		var NavPage = new NavigationPage(new FlyoutPageDemo());
 		NavPage.BarBackground = Colors.Black;
         NavPage.BarTextColor = Colors.White;
-        MainPage = new InotifyChangedDemo();
+        MainPage = new BindCollectionView();
 	}
 }
