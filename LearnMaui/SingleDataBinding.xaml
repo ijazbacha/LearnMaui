@@ -11,6 +11,7 @@
     
     <VerticalStackLayout>
 
+        <!--Single data binding-->
         <Label 
             Text="{Binding Name, Source={StaticResource employee}}"
             VerticalOptions="Center" 
@@ -22,6 +23,8 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
+
+       <!--Single data binding using BindingContext--> 
         <Label 
             Text="{Binding Id}"
             VerticalOptions="Center" 
@@ -31,6 +34,15 @@
             Text="{Binding Name}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        
+        <!--Control Binding-->
+        <Label
+            Rotation="{Binding Source={x:Reference Slider}, Path=Value}"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Text="Control Binding Example"/>
+
+        <Slider Maximum="360" Minimum="0" x:Name="Slider" />
 
         <Button Text="Change Title Name" Clicked="Button_Clicked"/>
     </VerticalStackLayout>

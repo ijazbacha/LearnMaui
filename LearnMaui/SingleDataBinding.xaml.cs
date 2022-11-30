@@ -21,7 +21,7 @@ public partial class SingleDataBinding : ContentPage
         //      EmployeeLB.SetBinding(Label.TextProperty, empBinding);
 
         //------ Multiple data binding -------
-        //BindingContext = emp;
+        BindingContext = emp;
 
         //------ Single data binding using BindingContext -------
         EmployeeLB.BindingContext = emp;
