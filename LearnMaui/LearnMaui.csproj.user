@@ -38,6 +38,9 @@
     <MauiXaml Update="InputControl.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="ModesExample.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="PresentationControl.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

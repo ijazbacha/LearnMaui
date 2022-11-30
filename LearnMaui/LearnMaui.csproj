@@ -80,6 +80,9 @@
 	  <MauiXaml Update="InputControl.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="ModesExample.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="PresentationControl.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
