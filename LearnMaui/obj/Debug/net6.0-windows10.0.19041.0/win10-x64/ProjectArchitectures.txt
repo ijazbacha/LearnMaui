@@ -1,1 +1,0 @@
-C:\Users\IjazAhmad\source\repos\LearnMaui\LearnMaui\LearnMaui.csproj;x64

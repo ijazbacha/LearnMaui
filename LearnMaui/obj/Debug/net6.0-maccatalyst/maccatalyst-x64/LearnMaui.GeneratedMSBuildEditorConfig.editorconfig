@@ -69,6 +69,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.GridLayoutDemo.x
 build_metadata.AdditionalFiles.TargetPath = GridLayoutDemo.xaml
 build_metadata.AdditionalFiles.RelativePath = GridLayoutDemo.xaml
 
+[C:/Users/IjazAhmad/source/repos/LearnMaui/LearnMaui/InotifyChangedDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.InotifyChangedDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = InotifyChangedDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = InotifyChangedDemo.xaml
+
 [C:/Users/IjazAhmad/source/repos/LearnMaui/LearnMaui/InputControl.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.InputControl.xaml
