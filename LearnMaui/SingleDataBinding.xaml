@@ -22,6 +22,16 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
+        <Label 
+            Text="{Binding Id}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label 
+            Text="{Binding Name}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
         <Button Text="Change Title Name" Clicked="Button_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>

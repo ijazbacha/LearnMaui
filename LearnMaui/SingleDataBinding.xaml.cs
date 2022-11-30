@@ -12,12 +12,14 @@ public partial class SingleDataBinding : ContentPage
         LearnMaui.Model.Employee emp = new LearnMaui.Model.Employee()
 		{
 			Id = 1,
-			Name = "XYZ"
+			Name = "XYZ1"
 		};
-		Binding empBinding = new Binding();
-		empBinding.Source = emp;
-		empBinding.Path = "Name";
-        EmployeeLB.SetBinding(Label.TextProperty, empBinding);
+		//Binding empBinding = new Binding();
+		//empBinding.Source = emp;
+		//empBinding.Path = "Name";
+  //      EmployeeLB.SetBinding(Label.TextProperty, empBinding);
+			
+		BindingContext = emp;
 
     }
 }
