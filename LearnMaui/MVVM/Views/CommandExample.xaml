@@ -11,5 +11,9 @@
         <Button 
             Text="Click Command"
             Command="{Binding CommandClick}"/>
+
+        <SearchBar 
+            Text="{Binding searchCommand}"
+            SearchCommand="{Binding commandSearch}"/>
     </StackLayout>
 </ContentPage>

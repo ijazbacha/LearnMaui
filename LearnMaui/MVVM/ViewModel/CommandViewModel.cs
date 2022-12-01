@@ -8,7 +8,18 @@ using System.Windows.Input;
 namespace LearnMaui.MVVM.ViewModel
 {
     public class CommandViewModel
-    {
+    { 
+        public string searchCommand { get; set; }
+        public ICommand commandSearch =>
+            new Command(Commandpara);
+
+        private void Commandpara(object obj)
+        {
+            App.Current.MainPage.DisplayAlert("Hi", $"{searchCommand}", "OK");
+        }
+
+        
+
         public ICommand CommandClick =>
             new Command(ExecuteAlert);
 
