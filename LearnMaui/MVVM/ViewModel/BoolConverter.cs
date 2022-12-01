@@ -21,7 +21,12 @@ namespace LearnMaui.MVVM.ViewModel
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            return null;
+            var isMarried = (bool)value;
+            if (isMarried)
+            {
+                return "Married";
+            }
+            return "UnMarried";
         }
     }
 }
