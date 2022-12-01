@@ -7,6 +7,11 @@ public partial class SecondPage : ContentPage
 		InitializeComponent();
 	}
 
+	protected override bool OnBackButtonPressed()
+	{
+		return true;
+	}
+
 	private void Button_Clicked(object sender, EventArgs e)
 	{
 		Navigation.PopAsync();
