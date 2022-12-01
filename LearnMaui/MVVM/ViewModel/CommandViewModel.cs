@@ -15,7 +15,7 @@ namespace LearnMaui.MVVM.ViewModel
 
         private void Commandpara(object obj)
         {
-            App.Current.MainPage.DisplayAlert("Hi", $"{searchCommand}", "OK");
+            App.Current.MainPage.DisplayAlert("Hi", $"{obj}", "OK");
         }
 
         

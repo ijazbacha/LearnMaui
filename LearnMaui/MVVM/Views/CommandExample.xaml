@@ -13,7 +13,8 @@
             Command="{Binding CommandClick}"/>
 
         <SearchBar 
-            Text="{Binding searchCommand}"
-            SearchCommand="{Binding commandSearch}"/>
+            x:Name="Search"
+            SearchCommand="{Binding commandSearch}"
+            SearchCommandParameter="{Binding Source={x:Reference Search}, Path=Text}"/>
     </StackLayout>
 </ContentPage>
