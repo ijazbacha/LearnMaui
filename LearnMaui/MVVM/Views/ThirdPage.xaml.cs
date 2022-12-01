@@ -14,6 +14,6 @@ public partial class ThirdPage : ContentPage
 
 	private void Button_Clicked_1(object sender, EventArgs e)
 	{
-		Navigation.PushAsync(new SecondPage());
+		Navigation.PushAsync(new SecondPage(null));
 	}
 }

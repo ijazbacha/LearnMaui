@@ -11,12 +11,15 @@
         </Frame>
     </NavigationPage.TitleView>
 
-    <VerticalStackLayout>
+    <StackLayout>
 
         <Label 
             Text="First Page"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Entry
+            x:Name="UserName" Placeholder="Enter your name"/>
 
         <Button 
             Text="Go to Second"
@@ -25,5 +28,5 @@
         <Button
             Text="Go to Third"
             Clicked="Button_Clicked_1"/>
-    </VerticalStackLayout>
+    </StackLayout>
 </ContentPage>

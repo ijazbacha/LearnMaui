@@ -2,10 +2,12 @@ namespace LearnMaui.MVVM.Views;
 
 public partial class SecondPage : ContentPage
 {
-	public SecondPage()
+	public SecondPage(string name)
 	{
 		InitializeComponent();
-	}
+        ShowUserName.Text = name;
+
+    }
 
 	protected override bool OnBackButtonPressed()
 	{

@@ -5,6 +5,7 @@
              Title="SecondPage">
     <VerticalStackLayout>
         <Label 
+            x:Name="ShowUserName"
             Text="Welcome to Second Page!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
