@@ -958,3 +958,6 @@ C:\Users\IjazAhmad\source\repos\LearnMaui\LearnMaui\obj\Debug\net6.0-android\sta
 C:\Users\IjazAhmad\source\repos\LearnMaui\LearnMaui\obj\Debug\net6.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\IjazAhmad\source\repos\LearnMaui\LearnMaui\obj\Debug\net6.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\IjazAhmad\source\repos\LearnMaui\LearnMaui\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\IjazAhmad\source\repos\LearnMaui\LearnMaui\obj\Debug\net6.0-android\LearnMaui.csproj.Fody.CopyLocal.cache
+C:\Users\IjazAhmad\source\repos\LearnMaui\LearnMaui\obj\Debug\net6.0-android\LearnMaui.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\IjazAhmad\source\repos\LearnMaui\LearnMaui\obj\Debug\net6.0-android\android\assets\PropertyChanged.dll

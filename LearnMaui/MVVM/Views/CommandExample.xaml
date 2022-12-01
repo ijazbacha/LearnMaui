@@ -16,5 +16,20 @@
             x:Name="Search"
             SearchCommand="{Binding commandSearch}"
             SearchCommandParameter="{Binding Source={x:Reference Search}, Path=Text}"/>
+
+        <Entry Placeholder="Enter first number"
+               Text="{Binding First}"/>
+
+        <Entry Placeholder="Enter 2nd number"
+               Text="{Binding Second}"/>
+
+        <!--<Entry Placeholder="Result" 
+               Text="{Binding Result}"/>-->
+
+        <Label Text="{Binding Result}" />
+
+        <Button Text="Calculate" 
+                Command="{Binding ResultCommand}"/>
+
     </StackLayout>
 </ContentPage>
