@@ -3,7 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LearnMaui.MVVM.Views.FirstPage"
              Title="FirstPage">
+
+    <NavigationPage.TitleView>
+        <Frame Padding="5"
+                   Margin="5">
+            <SearchBar Placeholder="Search..." />
+        </Frame>
+    </NavigationPage.TitleView>
+
     <VerticalStackLayout>
+
         <Label 
             Text="First Page"
             VerticalOptions="Center" 
