@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearnMaui.MVVM.Views.PersonPage"
+             xmlns:convert="clr-namespace:LearnMaui.MVVM.ViewModel"
+             Title="PersonPage">
+    <ContentPage.Resources>
+        <convert:BoolConverter x:Key="boolConvert" />
+    </ContentPage.Resources>
+    <VerticalStackLayout>
+        <CheckBox IsChecked="{Binding Person.Married, Converter={StaticResource boolConvert}}"/>
+        <Label 
+            Text="Married"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
