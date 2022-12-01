@@ -14,6 +14,6 @@ public partial class FirstPage : ContentPage
 
 	private void Button_Clicked_1(object sender, EventArgs e)
 	{
-		Navigation.PushAsync(new ThirdPage());
+		Navigation.PushModalAsync(new ThirdPage());
 	}
 }
