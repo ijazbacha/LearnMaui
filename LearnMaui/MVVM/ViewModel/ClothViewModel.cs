@@ -31,7 +31,7 @@ namespace LearnMaui.MVVM.ViewModel
                     Price = 12.0m,
                     Stock = 10,
                     Image = "dotnet_bot.svg",
-                    HasOffer = false,
+                    HasOffer = true,
                     OfferPrice = 0
                 },
                 new Cloth()
@@ -49,7 +49,7 @@ namespace LearnMaui.MVVM.ViewModel
                     Price = 12.0m,
                     Stock = 10,
                     Image = "dotnet_bot.svg",
-                    HasOffer = false,
+                    HasOffer = true,
                     OfferPrice = 0
                 },
 
