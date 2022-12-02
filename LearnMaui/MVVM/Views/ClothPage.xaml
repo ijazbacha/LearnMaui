@@ -6,7 +6,9 @@
 
     <RefreshView Command="{Binding RefreshCommand}"
                  IsRefreshing="{Binding IsRefresh}">
-        <CollectionView ItemsSource="{Binding Cloths}">
+        <CollectionView ItemsSource="{Binding Cloths}"
+                        RemainingItemsThreshold="1"
+                        RemainingItemsThresholdReachedCommand="{Binding ReachedCommand}">
         <CollectionView.ItemTemplate>
             <DataTemplate>
                 <Grid
