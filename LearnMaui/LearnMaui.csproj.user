@@ -47,6 +47,9 @@
     <MauiXaml Update="MVVM\Views\BindCollectionView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="MVVM\Views\ClothPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="MVVM\Views\CommandExample.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

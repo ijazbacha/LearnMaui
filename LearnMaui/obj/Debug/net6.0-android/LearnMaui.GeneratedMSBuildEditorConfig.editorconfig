@@ -100,6 +100,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.MVVM.Views.BindC
 build_metadata.AdditionalFiles.TargetPath = MVVM\Views\BindCollectionView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\Views\BindCollectionView.xaml
 
+[C:/Users/IjazAhmad/source/repos/LearnMaui/LearnMaui/MVVM/Views/ClothPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.MVVM.Views.ClothPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\ClothPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\ClothPage.xaml
+
 [C:/Users/IjazAhmad/source/repos/LearnMaui/LearnMaui/MVVM/Views/CommandExample.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearnMaui.MVVM.Views.CommandExample.xaml

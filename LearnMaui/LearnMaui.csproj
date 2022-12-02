@@ -93,6 +93,9 @@
 	  <MauiXaml Update="MVVM\Views\BindCollectionView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="MVVM\Views\ClothPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="MVVM\Views\CommandExample.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
